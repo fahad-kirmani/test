@@ -1,0 +1,38 @@
+body{
+    background-color: #14131A !important;
+}
+main{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.contact {
+    height: 50px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact .dots {
+    display: flex;
+  }
+  .contact .dots span {
+    background-color: greenyellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: block;
+  }
+.Connect{
+    font-size: 3.5rem;
+    color: white;
+}
+form{
+    color: white;
+    width: 170%;
+    height: 70%;
+    font-size: 1.5rem;
+    
+}
+form .form-control{
+    border-radius: 12px !important;
+}

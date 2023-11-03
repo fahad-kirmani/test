@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #14131A;
+}
+
+.contact {
+  height: 50px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .dots {
+  display: flex;
+}
+.contact .dots span {
+  background-color: greenyellow;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: block;
+}
+.contact .contactme {
+  font-size: 1.5rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 4px 8px;
+  background-color: rgb(102, 145, 28);
+  font-weight: 500;
+  color: white;
+  border-radius: 10px;
+}
+.contact .contactme a {
+  text-decoration: none !important;
+  color: white;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+}
+main .left {
+  width: 15%;
+  background-color: #1C1B23;
+  height: 100vh;
+  border-radius: 10px;
+}
+main .left .lftcont {
+  font-size: 1.3rem;
+  color: #86858D;
+  padding: 1.1rem;
+}
+main .left .socials {
+  font-size: 1.5rem;
+  padding: 1.1rem;
+  color: #86858D;
+}
+main .right {
+  width: 83%;
+  padding: 0 10px;
+}
+main .right .banner {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("blur.avif");
+  background-position: center;
+}
+main .right .banner .follow {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}
+main .right .banner .aboutme {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+}
+main .right .banner .name span {
+  display: block;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}
+main .right .banner img {
+  max-width: 100%;
+  height: 15rem;
+  border-radius: 50%;
+  border: 3px white solid;
+}/*# sourceMappingURL=test.css.map */

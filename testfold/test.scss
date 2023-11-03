@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #14131A;
+}
+
+.contact{
+    height: 50px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    .dots{
+        span{
+        background-color: greenyellow;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: block;
+        }
+        display: flex;
+    }
+    .contactme{
+        font-size: 1.5rem;
+        height: fit-content;
+        padding: 4px 8px;
+        background-color: rgb(102, 145, 28);
+        font-weight: 500;
+        color: white;
+        border-radius: 10px;
+        a{
+        text-decoration: none !important;
+        color: white;
+        }
+    }
+}
+
+main{
+    padding: 20px;
+    display: flex;
+    .left{
+        width: 15%;
+        background-color: #1C1B23;
+        height: 100vh;
+        border-radius: 10px;
+        .lftcont{
+            font-size: 1.3rem;
+            color: #86858D;
+            padding: 1.1rem;
+        }
+        .socials{
+            font-size: 1.5rem;
+            padding: 1.1rem;
+            color: #86858D;
+        }
+    }
+    .right{
+        width: 83%;
+        padding: 0 10px;
+        .banner{
+            width: 100%;
+            padding: .5rem;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-image: url("blur.avif");
+            background-position: center;
+            .follow{
+                color: white;
+                font-size: 2rem;
+                font-weight: 600;
+            }
+            .aboutme{
+                display: flex;
+                align-items: center;
+                gap: 1.1rem;
+            }
+            .name{
+            span{
+                display: block;
+                color: white;
+                font-size: 2rem;
+                font-weight: 600;
+            }
+        }
+            img{
+                max-width: 100%;
+                height: 15rem;
+                border-radius: 50%;
+                border: 3px white solid;
+            }
+        }
+    }
+}
